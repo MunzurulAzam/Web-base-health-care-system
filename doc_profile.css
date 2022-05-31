@@ -1,0 +1,204 @@
+/* Add a black background color to the top navigation bar */
+
+.topnav {
+    overflow: hidden;
+    background-color: #f4f1fa;
+    size: 100%;
+}
+
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+/* Change the color of links on hover */
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    text-decoration: none;
+}
+
+
+/* Style the "active" element to highlight the current page */
+
+.topnav a.active {
+    background-color: #311e9b;
+    color: white;
+    text-decoration: none;
+    border-radius: 2px solid;
+}
+
+
+/* Style the search box inside the navigation bar */
+
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    background-color: #ccc;
+}
+
+
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+
+@media screen and (max-width: 600px) {
+    .topnav a,
+    .topnav input[type=text] {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+    }
+    .topnav input[type=text] {
+        border: 1px solid #ccc;
+    }
+}
+
+body {
+    color: #6F8BA4;
+    margin-top: 20px;
+}
+
+.section {
+    padding: 100px 0;
+    position: relative;
+}
+
+.gray-bg {
+    background-color: #f5f5f5;
+}
+
+img {
+    max-width: 100%;
+
+}
+
+img {
+    vertical-align: middle;
+
+    border-style: none;
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+}
+
+.about-text h6 {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 767px) {
+    .about-text h6 {
+        font-size: 18px;
+    }
+}
+
+.about-list {
+    padding-top: 10px;
+}
+
+.about-list .media {
+    padding: 5px 0;
+}
+
+.about-list label {
+    color: #20247b;
+    font-weight: 600;
+    width: 88px;
+    margin: 0;
+    position: relative;
+}
+
+.about-list label:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 11px;
+    width: 1px;
+    height: 12px;
+    background: #20247b;
+    -moz-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+    margin: auto;
+    opacity: 0.5;
+}
+
+.about-list p {
+    margin: 0;
+    font-size: 15px;
+}
+
+@media (max-width: 991px) {
+    .about-avatar {
+        margin-top: 30px;
+    }
+}
+
+.about-section .counter {
+    padding: 22px 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(31, 45, 61, 0.125);
+}
+
+.about-section .counter .count-data {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.about-section .counter .count {
+    font-weight: 700;
+    color: #20247b;
+    margin: 0 0 5px;
+}
+
+.about-section .counter p {
+    font-weight: 600;
+    margin: 0;
+}
+
+mark {
+    background-image: linear-gradient(rgba(252, 83, 86, 0.6), rgba(252, 83, 86, 0.6));
+    background-size: 100% 3px;
+    background-repeat: no-repeat;
+    background-position: 0 bottom;
+    background-color: transparent;
+    padding: 0;
+    color: currentColor;
+}
+
+.theme-color {
+    color: #fc5356;
+}
+
+.dark-color {
+    color: #20247b;
+}
+
+.map {
+    margin-top: 15px;
+}
+
+.appointment {
+    margin-top: 50px;
+    border-radius: 5px;
+}

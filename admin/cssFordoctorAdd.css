@@ -1,0 +1,21 @@
+body{
+    background-image: url("azam/Bacground.png");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    
+
+}
+#ui{
+    background-color: hsla(204, 94%, 50%, 0.548);
+     padding: 40px;
+    margin-top: 30px;
+    border-radius: 25px;
+    
+}
+#ui label,h1, l {
+    color: rgb(3, 3, 3);
+    font-weight: bold;
+    font-size: 20px;
+}
+
